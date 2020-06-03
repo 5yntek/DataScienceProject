@@ -1,0 +1,12 @@
+\babel@toc {ngerman}{}
+\contentsline {section}{\numberline {1}Zielsetzung}{1}{section.1}
+\contentsline {section}{\numberline {2}Unsere Infrastruktur}{1}{section.2}
+\contentsline {section}{\numberline {3}Die Daten}{1}{section.3}
+\contentsline {section}{\numberline {4}Preprocessing}{2}{section.4}
+\contentsline {subsection}{\numberline {4.1}Merge and clean the data}{2}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Test and verify your data quality}{2}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Further preprocessing}{2}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}pandas-profiling}{2}{subsection.4.4}
+\contentsline {section}{\numberline {5}Apply two different algorithms of the same kind}{3}{section.5}
+\contentsline {section}{\numberline {6}Evaluate and verify the results of them!}{3}{section.6}
+\contentsline {section}{\numberline {7}Come up with a conclusion!}{3}{section.7}
