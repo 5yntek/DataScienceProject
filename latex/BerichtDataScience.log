@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.19)  3 JUN 2020 22:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.19)  4 JUN 2020 22:51
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1290,15 +1290,15 @@ e
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(99.58464pt, 645.87756pt, 99.58464pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=674.33032pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-19.91173pt
+* \textwidth=455.24411pt
+* \textheight=645.87756pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-5.68535pt
 * \headheight=15.0pt
 * \headsep=18.0pt
 * \topskip=10.0pt
@@ -1388,44 +1388,98 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<figure/correlation.pdf, id=86, 701.62125pt x 494.84875pt>
+<figure/correlation.pdf, id=101, 701.62125pt x 494.84875pt>
 File: figure/correlation.pdf Graphic file (type pdf)
 <use figure/correlation.pdf>
-Package pdftex.def Info: figure/correlation.pdf  used on input line 109.
-(pdftex.def)             Requested size: 386.95897pt x 272.92273pt.
+Package pdftex.def Info: figure/correlation.pdf  used on input line 102.
+(pdftex.def)             Requested size: 364.19667pt x 256.86978pt.
  [2] [3pdfTeX warning (ext4): destination with the same identifier (name{figure
 .1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.122 \end{document}
-                     <./figure/correlation.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
+l.129 \begin{description}
+                          <./figure/correlation.pdf>]
+<figure/firstresult.pdf, id=122, 526.96875pt x 137.51375pt>
+File: figure/firstresult.pdf Graphic file (type pdf)
+<use figure/firstresult.pdf>
+Package pdftex.def Info: figure/firstresult.pdf  used on input line 139.
+(pdftex.def)             Requested size: 273.14923pt x 71.28094pt.
+<figure/localminimum.pdf, id=124, 619.15692pt x 581.03635pt>
+File: figure/localminimum.pdf Graphic file (type pdf)
+<use figure/localminimum.pdf>
+Package pdftex.def Info: figure/localminimum.pdf  used on input line 153.
+(pdftex.def)             Requested size: 273.14923pt x 256.33945pt.
+<figure/crossval.pdf, id=127, 612.13066pt x 581.03635pt>
+File: figure/crossval.pdf Graphic file (type pdf)
+<use figure/crossval.pdf>
+Package pdftex.def Info: figure/crossval.pdf  used on input line 163.
+(pdftex.def)             Requested size: 273.14923pt x 259.27406pt.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.167 \subsection
+                 {Analyse einzelner Parteien} <./figure/firstresult.pdf>]
+<figure/simple_parties.pdf, id=148, 605.29384pt x 797.5649pt>
+File: figure/simple_parties.pdf Graphic file (type pdf)
+<use figure/simple_parties.pdf>
+Package pdftex.def Info: figure/simple_parties.pdf  used on input line 172.
+(pdftex.def)             Requested size: 409.71692pt x 539.86647pt.
+
+[5pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.179 \end{document}
+                     <./figure/localminimum.pdf>] [6pdfTeX warning (ext4): dest
+ination with the same identifier (name{figure.4}) has been already used, duplic
+ate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.179 \end{document}
+                     <./figure/crossval.pdf>] [7pdfTeX warning (ext4): destinat
+ion with the same identifier (name{figure.5}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.179 \end{document}
+                     <./figure/simple_parties.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 179.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 179.
  (./BerichtDataScience.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 179.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 179.
 Package rerunfilecheck Info: File `BerichtDataScience.out' has not changed.
-(rerunfilecheck)             Checksum: D92AA945B88C71260B0469F5CABD50D2;703.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
+(rerunfilecheck)             Checksum: 06BB950D69B167724ACF9C6E16477C79;888.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 179.
  ) 
 Here is how much of TeX's memory you used:
- 32193 strings out of 492982
- 729792 string characters out of 6134896
- 1000120 words of memory out of 5000000
- 35191 multiletter control sequences out of 15000+600000
- 49559 words of font info for 54 fonts, out of 8000000 for 9000
+ 32235 strings out of 492982
+ 730644 string characters out of 6134896
+ 1001120 words of memory out of 5000000
+ 35216 multiletter control sequences out of 15000+600000
+ 55532 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  73i,9n,100p,8856b,1068s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
-public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/sh
-are/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/
-lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/
-texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on BerichtDataScience.pdf (3 pages, 212039 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
+c/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm
+/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/
+type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on BerichtDataScience.pdf (7 pages, 312138 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 352 PDF objects out of 1000 (max. 8388607)
+ 201 compressed objects within 3 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

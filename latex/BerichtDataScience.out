@@ -3,9 +3,12 @@
 \BOOKMARK [1][-]{section.3}{Die Daten}{}% 3
 \BOOKMARK [1][-]{section.4}{Preprocessing}{}% 4
 \BOOKMARK [2][-]{subsection.4.1}{Merge and clean the data}{section.4}% 5
-\BOOKMARK [2][-]{subsection.4.2}{Test and verify your data quality}{section.4}% 6
-\BOOKMARK [2][-]{subsection.4.3}{Further preprocessing}{section.4}% 7
-\BOOKMARK [2][-]{subsection.4.4}{pandas-profiling}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.2}{pandas-profiling}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.3}{Test and verify your data quality}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.4}{Further preprocessing}{section.4}% 8
 \BOOKMARK [1][-]{section.5}{Apply two different algorithms of the same kind}{}% 9
-\BOOKMARK [1][-]{section.6}{Evaluate and verify the results of them!}{}% 10
-\BOOKMARK [1][-]{section.7}{Come up with a conclusion!}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Simples Training}{section.5}% 10
+\BOOKMARK [2][-]{subsection.5.2}{Erneut trainieren}{section.5}% 11
+\BOOKMARK [2][-]{subsection.5.3}{Erneut trainieren2}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.4}{Analyse einzelner Parteien}{section.5}% 13
+\BOOKMARK [1][-]{section.6}{Konklusion}{}% 14

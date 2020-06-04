@@ -1,12 +1,15 @@
 \babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Zielsetzung}{1}{section.1}
 \contentsline {section}{\numberline {2}Unsere Infrastruktur}{1}{section.2}
-\contentsline {section}{\numberline {3}Die Daten}{1}{section.3}
+\contentsline {section}{\numberline {3}Die Daten}{2}{section.3}
 \contentsline {section}{\numberline {4}Preprocessing}{2}{section.4}
 \contentsline {subsection}{\numberline {4.1}Merge and clean the data}{2}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Test and verify your data quality}{2}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Further preprocessing}{2}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}pandas-profiling}{2}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.2}pandas-profiling}{2}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Test and verify your data quality}{3}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Further preprocessing}{3}{subsection.4.4}
 \contentsline {section}{\numberline {5}Apply two different algorithms of the same kind}{3}{section.5}
-\contentsline {section}{\numberline {6}Evaluate and verify the results of them!}{3}{section.6}
-\contentsline {section}{\numberline {7}Come up with a conclusion!}{3}{section.7}
+\contentsline {subsection}{\numberline {5.1}Simples Training}{4}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Erneut trainieren}{4}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Erneut trainieren2}{5}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Analyse einzelner Parteien}{5}{subsection.5.4}
+\contentsline {section}{\numberline {6}Konklusion}{5}{section.6}
