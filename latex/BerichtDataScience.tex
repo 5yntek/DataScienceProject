@@ -173,6 +173,15 @@ Insgesamt machen die Modelle keinen guten Eindruck. Das schließt aber nicht aus
 	\caption{Vergleich der Vorhersagen zweier Modelle mit der Ground Truth}
 	\label{fig:simple_parties}\end{figure}  zeigt die Vorhersagen unserer beiden ersten Modelle. Man sieht, die Vorhersagen liegen nicht völlig daneben, sie sind nur oft nicht besser als ein konstantes Modell.
 
+ Wir führen die Crossvalidation erneut durch und untersuchen diesmal die einzelnen Parteien. \ref{fig:scores_parties} \begin{figure}
+ 	\centering
+ 	\fbox{	
+ 		\includegraphics[width=0.9\textwidth]{figure/scores_boxplot_parties}
+ 	}
+ 	\caption{Boxplot der Punktzahl verschiedener Metriken der einzelnen Parteien}
+ 	\label{fig:scores_parties}\end{figure} Zum einen fällt ins Auge, dass die Varianz der Punktzahl hoch ist. Die Qualität der Modelle hängt also stark von Trainingsdaten ab. Die Menge der Trainingsdaten ist nicht ausreichend, um gute Modelle zu erstellen. Allerdings ist dies auch nicht unser Vorhaben. Wir wollen überprüfen, ob für bestimmte Parteien eine deutliche Abhängigkeit zu den Eingabedaten abzulesen ist. Tatsächlich sehen wir drei Parteien, SPD, DIE LINKE und AFD, für die im Schnitt die Modelle deutlich besser als ein vergleichbares konstantes Modell sind. Dies können wir daran ablesen, dass dort der $R^2$-Score und die Explained Varianz meist über 0 sind. Gleichzeitig ist für die Parteien der Mean Squared Error deutlich niedriger als für den Rest der Parteien. 
+ 
+
 
 \section{Konklusion}
 Die entwickelten Modelle unterstützen unsere These. Wir können deutlich sehen, dass die Modelle nützliche Vorhersagen über das Wahlverhalten treffen können. Überraschend war, dass die Modelle für bestimmte Parteien, insbesondere CDU und Grüne, sehr schlecht waren (Quelle). Wir schließen daraus, aus den Daten können keine signifikanten Schlüsse von Einkommen eines Stadtteils auf das Wahlergebnis dieser Parteien geschlossenen werden. Anders sieht es mit den Parteien DIE LINKE, SPD und AFD aus. Die Modelle können zwar nicht mit einer besonderen Zuverlässigkeit die Wahlergebnisse vorhersagen (Quelle), jedoch sind die Ergebnisse so gut, dass wir klar sagen können, die Einkommensverteilung eines Stadtteils hat Einfluss auf das Wahlergebnis. Ohne weitere Untersuchung können wir allerdings nicht sagen, welche Art von Einkommensverteilung eine bestimmte Partei bevorzugt. 

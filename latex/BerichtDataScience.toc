@@ -12,4 +12,4 @@
 \contentsline {subsection}{\numberline {5.2}Erneut trainieren}{4}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Erneut trainieren2}{5}{subsection.5.3}
 \contentsline {subsection}{\numberline {5.4}Analyse einzelner Parteien}{5}{subsection.5.4}
-\contentsline {section}{\numberline {6}Konklusion}{5}{section.6}
+\contentsline {section}{\numberline {6}Konklusion}{6}{section.6}
