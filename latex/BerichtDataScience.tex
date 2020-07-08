@@ -61,23 +61,21 @@
 \begin{document}
 \maketitle
 
-\begin{abstract}Dies ist die finale Ausarbeitung unseres Projektes für das Modul DataScience1. Untersucht wurde der Zusammenhang von Gehalt und Wahlverhalten in Frankfurt. Dazu wurden zwei Datensätze  von \TODO verwendet die Informationen von Gehalt und Wahlverhalten je Stadtteil zu Verfügung stellen. Organisiert haben war unser Projekt mit Jupyter Notebooks uns GitHub. Die gesäuberten Datensätze wurden auf verschiedene Weise untersucht. Insbesondere wurden mehrere Multi-Target-Regressoren trainiert, um festzustellen ob eine Wahlvorhersage aufgrund des Gehalts sinnvolle Ergebnisse liefert. Festgestellt haben wir, dass es einen statistisch signifikanten Zusammenhang zwischen Verteilung Gehalt eines Stadtteils und den Wählerstimmen für SPD, FDP und AFD gibt.  \end{abstract}
+\begin{abstract}Dies ist die finale Ausarbeitung unseres Projektes für das Modul DataScience 1. Untersucht wurde ob ein signifikanter Zusammenhang von Gehalt und Wahlverhalten in Frankfurt besteht. Dazu wurden zwei Datensätze, zu finden auf \lstinline|offendaten.frankfurt.de|, verwendet, die Informationen von Gehalt und Wahlverhalten je Stadtteil zu Verfügung stellen. Organisiert haben war unser Projekt mit Jupyter Notebooks und GitHub. Die gesäuberten Datensätze wurden auf verschiedene Weise untersucht. Insbesondere wurden mehrere Multi-Target-Regressoren trainiert, um festzustellen, ob eine sinnvolle Wahlvorhersage aufgrund des Gehalts möglich ist. Festgestellt haben wir, dass es einen signifikanten Zusammenhang zwischen Verteilung Gehalt eines Stadtteils und den Wählerstimmen für SPD, FDP und AFD gibt.  \end{abstract}
 
 \tableofcontents
 
 \section{Zielsetzung}
-Dass das Wahlverhalten von Deutschen durch ihre Einkommen beeinflusst würde, ist etwas dass viele schon gehört haben oder auch selber vermuten. Wir wollen diese Vermutung an Hand von Daten aus Frankfurt untersuchen.
+Dass das Wahlverhalten von Deutschen durch ihre Einkommen beeinflusst werde, ist etwas, dass viele schon gehört haben oder auch selber vermuten. Wir wollen diese These an Hand von Daten aus Frankfurt untersuchen.
 
 \section{Unsere Infrastruktur}
 Unser gesamtes Projekt ist auf \href{Github}{\lstinline|https://github.com/5yntek/DataScienceProject|} zu finden. Die verwendeten Rohdaten sind unter \lstinline|/data| gesammelt. \TODO \emph{Infrastruktur säubern und hier aufführen}. Unseren Code haben wir in Jupyter Notebooks gesammelt. Sämtlicher Code ist Python3. Nennenswerte Bibliotheken, die wir verwendet haben sind \href{https://www.scipy.org/}{scipy} (\href{https://numpy.org/}{numpy}, \href{https://pandas.pydata.org/}{pandas}, \href{https://matplotlib.org/}{matplotlib}), \href{https://scikit-learn.org/}{sklearn}, \href{https://seaborn.pydata.org/}{seaborn}  und \href{https://github.com/pandas-profiling/pandas-profiling}{pandas-profiling}.
 
-\TODO \emph{Wie sollen wir Referenzen organisieren?}
-
 \section{Die Daten}
 Information über die Gehälter der Frankfurter sind leider recht rar. Die einzigen relevanten Daten haben wir in einem Datensatz zum  \href{https://offenedaten.frankfurt.de/dataset/arbeitsmarkt}{Arbeitsmarkt}
-gefunden. Dieser Datensatz ist auf dem Portal \href{https://offenedaten.frankfurt.de}{offenedaten.frankfurt.de} zu finden und erhebt nach eigenen Angaben Daten aus dem Jahr 2011 und 2012. Leider ist die auf der Seite angegebene Quelle veraltet, sodass wir die Daten nicht weiter verifizieren können. Dass die Daten nicht aktueller sind ist zwar Schade, sollte für unser Projekt aber kein Hindernis sein. 
+gefunden. Dieser Datensatz ist auf dem Portal \href{https://offenedaten.frankfurt.de}{offenedaten.frankfurt.de} zu finden und erhebt nach eigenen Angaben Daten aus dem Jahr 2011 und 2012. Leider ist die auf der Seite angegebene Quelle veraltet, sodass wir die Daten nicht weiter verifizieren können. Dass die Daten nicht aktueller sind ist zwar Schade, sollte für unser Projekt aber kein Hindernis sein.  Andere Datenquellen, wie zum Beispiel (\TODO hier andere Website die Karsten genannt hat einfügen), haben keine besseren Daten geboten.
 
-Mehr Daten werden über Wahlergebnisse erhoben. Alleine auf offenedaten.frankfurt gibt es diverse Datensätze zu verschiedenen Wahlen. Für uns am interessantesten erscheinen Daten zur Bundestagswahl, sodass wir uns für den Datensatz der \href{https://offenedaten.frankfurt.de/dataset/bundestagswahl-2017-ergebnisse-in-frankfurt-am-main}{Bundestagswahl 2017} (im weiteren BW17 genannt) entschieden haben.
+Mehr Daten werden über Wahlergebnisse erhoben. Alleine auf \lstinline|offenedaten.frankfurt| gibt es diverse Datensätze zu verschiedenen Wahlen. Für uns am interessantesten erscheinen Daten zur Bundestagswahl, sodass wir uns für den Datensatz der \href{https://offenedaten.frankfurt.de/dataset/bundestagswahl-2017-ergebnisse-in-frankfurt-am-main}{Bundestagswahl 2017} (im weiteren Text BW17 genannt) entschieden haben.
 
 Leider ist die kleinste Entität, über die Daten sowohl für Gehalt als auch Bundestagswahl erhoben wurde, das Stadtteil, so dass wir mit nur insgesamt \TODO\emph{(wie viele?)} Datenpunkten arbeiten.
 
